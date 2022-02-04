@@ -12,12 +12,12 @@ main{
     overflow: hidden;
   }
   
-.topnav h1{
+.topnav h2{
     font-family: 'Pokemon Solid', sans-serif;
     float: center;
     display: block;
     color: yellow;
-    text-align: center;
+    
     text-decoration: none;
     font-size: 1.5em;
 }
@@ -76,28 +76,71 @@ main{
 }
 
 .titles{
-    
     text-align: center;
     font-size: 25px;
-    
 }
 
 .desctext{
     display: inline-table;
-    margin-right: 50px;
-    margin-left: 80px;
+    margin-right: 20px;
+    margin-left: 90px;
+    font-family: 'Inconsolata', monospace;
+    
 }
 
+.desctext-2{
+    display: inline-table;
+    margin-right: 20px;
+    margin-left: 40px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
+.desctext div{
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.titlefooter{
+    margin-left: 250px;
+    font-family: 'Bebas Neue', cursive;
+    display: inline-table;
+    float: left;
+    margin-top:40px;
+    margin-right:500px;
+}
 
 footer {
     background-color: whitesmoke;
     overflow: hidden;
     max-width: 100%;
     margin-top: 90px;
-  }
+}
+
+.poker{
+    display: inline-table;
+    max-width: 100px;
+    max-height: 100px;
+    border: gray;
+    border-radius: 20px;
+    padding:2px 2px;
+    margin:20px 20px;
+    background-color: gray;
+    float:left;
+}
 
 
-@media screen and (max-width: 900px) {
+.othersquare{
+    
+}
+
+.othersquare:hover{
+    opacity: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
     .imgpokemon{
         display: block;
         background-color: crimson;
@@ -105,6 +148,45 @@ footer {
         max-height: 50%;
         border-radius: 60px;
         margin: 5px 5px 5px 5px;
+    }
+
+    .topnav h2{
+        font-family: 'Pokemon Solid', sans-serif;
+        float: center;
+        display: block;
+        color: yellow;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+
+    .titlefooter{
+        
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        margin-right: 250px;
+        
+    }
+
+    footer {
+        display: grid;
+        background-color: whitesmoke;
+        max-width: 100%;
+        margin-top: 90px;
+        justify-content: center;
+    }
+
+    .poker{
+        display: inline-block;
+        max-width: 100px;
+        max-height: 100px;
+        border: gray;
+        border-radius: 20px;
+
+        background-color: gray;
+    }
+    .othersquare{
+    
     }
 
     .infopoke{
@@ -120,6 +202,13 @@ footer {
         margin: 10px 10px;
     }
 
+    .desctext-2{
+        display: inline-table;
+        margin-right: 20px;
+        margin-left: 40px;
+        font-family: 'Inconsolata', monospace;
+    }
+
     .titletext{
         font-family: 'Bebas Neue', cursive;
         display: inline-table;
@@ -129,3 +218,4 @@ footer {
     }
 
 }
+

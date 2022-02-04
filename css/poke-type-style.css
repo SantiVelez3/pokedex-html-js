@@ -1,0 +1,82 @@
+
+.type-icon,
+.type-abbr,
+.type-icon-th {
+  font-family: 'Fira Sans', sans-serif;
+  background: #ccc;
+  background-image: -webkit-linear-gradient(#ddd, #bbb);
+  background-image: linear-gradient(#ddd, #bbb);
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #333;
+  text-transform: uppercase
+}
+
+.type-icon:hover,
+.type-abbr:hover,
+.type-icon-th:hover,
+.type-icon:active,
+.type-abbr:active,
+.type-icon-th:active,
+.type-icon:focus,
+.type-abbr:focus,
+.type-icon-th:focus {
+  color: #fff;
+  text-decoration: none
+}
+
+.type-icon:link:hover,
+.type-abbr:link:hover,
+.type-icon-th:link:hover,
+.type-icon:link:active,
+.type-abbr:link:active,
+.type-icon-th:link:active,
+.type-icon:link:focus,
+.type-abbr:link:focus,
+.type-icon-th:link:focus {
+  opacity: 0.85
+}
+
+.type-icon {
+  display: inline-block;
+  width: 54px;
+  line-height: 1;
+  margin: 1px 0;
+  padding: 3px 0
+}
+
+.type-abbr {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px
+}
+
+.type-icon-th {
+  float: left;
+  width: 54px;
+  height: 32px;
+  margin-left: 1px;
+  line-height: 32px
+}
+
+.type-icon-th:first-child {
+  margin-left: 0
+}
+
+.type-fighting {
+    background: #c03028;
+    background-image: -webkit-linear-gradient(#c03028, #9d2721);
+    background-image: linear-gradient(#c03028, #9d2721);
+    border-color: #82211b
+}
+
+.type-steel {
+    background: #b8b8d0;
+    background-image: -webkit-linear-gradient(#b8b8d0, #9797ba);
+    background-image: linear-gradient(#b8b8d0, #9797ba);
+    border-color: #7a7aa7
+}
