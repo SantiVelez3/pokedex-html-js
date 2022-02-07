@@ -6,7 +6,7 @@ body{
 main{
     grid-template-columns: 50% 50%;
 }
-
+/*NAVBAR */
 .topnav {
     background-color: crimson;
     overflow: hidden;
@@ -17,14 +17,13 @@ main{
     float: center;
     display: block;
     color: yellow;
-    
     text-decoration: none;
     font-size: 1.5em;
 }
+/*NAVBAR */
   
-
-.pokename{
-    position:static;
+/* POKE-NAME */
+.poke-name{
     border-radius: 30px;
     color: black;
     background-color: whitesmoke;
@@ -34,13 +33,16 @@ main{
     margin-top:30px;
     margin-bottom:20px;
     font-size: 30px;
+    
 }
 
-.pokename2{
+.poke-name-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* POKE-NAME */
 
 .infopoke{
     display: flex;
@@ -131,14 +133,6 @@ footer {
 }
 
 
-.othersquare{
-    
-}
-
-.othersquare:hover{
-    opacity: 100%;
-}
-
 
 @media screen and (max-width: 768px) {
     .imgpokemon{
@@ -184,9 +178,6 @@ footer {
         border-radius: 20px;
 
         background-color: gray;
-    }
-    .othersquare{
-    
     }
 
     .infopoke{
